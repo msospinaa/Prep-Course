@@ -7,32 +7,61 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    display: block;
+    text-align: center;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
-
+#ejercicioDos{
+    display: none;
+}
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
+#ejercicioTres{ 
+    position: absolute;
+    left: 200px;
+    top: 100px;
 
+}
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
-
+#ejercicioCuatro{
+    position: fixed; /* Fixed: me deja la imagen o el cuadro siempre quiero cuando hago
+    scroll. Sticky: al momento de llegar la página a este elemento, me deja quieto el lemento
+    en la posición que le  diga */
+    top: 0;
+    left: 0;
+}
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
-
+#ejercicioCInco{
+    display: flex;
+    justify-content: space-evenly; /* space-between Separa los elementos en el eje x */ /* "space-evenly"
+    hace que queden más cerca*/
+    align-items: center; /* "center" separa los elementos en el eje Y */
+    /* "flex-start" pone todos alineados arriba en el eje Y*/
+    flex-direction: row-reverse;
+}
 
 
 /* Ejercicio 6. */
+
+
+/* Ejercicio 7. */
+
+#ejercicioSiete{
+    display: flex;
+    flex-direction: column;
+}
