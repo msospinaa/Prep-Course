@@ -48,7 +48,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Acá va tu código */
 #ejercicioCInco{
     display: flex;
-    justify-content: space-evenly; /* space-between Separa los elementos en el eje x */ /* "space-evenly"
+    justify-content: space-evenly; /* para el el eje x *//* space-between Separa los elementos */ /* "space-evenly"
     hace que queden más cerca*/
     align-items: center; /* "center" separa los elementos en el eje Y */
     /* "flex-start" pone todos alineados arriba en el eje Y*/
