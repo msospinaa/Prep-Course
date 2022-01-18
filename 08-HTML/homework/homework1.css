@@ -1,0 +1,21 @@
+h1 { /* si inicio con un . es una clase; si se inicia con # es un ID */
+    color: orange; /* Para cambiar el color de la letra, no de los fondos */ 
+}
+img {
+    /*display: inline; este comando hace que los elementos se organicen en la misma línea */    
+    width: 400px;
+    border-radius: 50% 50% 0% 0%; /* de esta manera le digo al código a que esquina se le aplica el border-radius */
+}
+#thirdDiv{
+        height: 600px;
+        width: 500px;
+        background-color: pink; 
+        padding: 50px; /* El padding es un relleno que se le hace a los elementos */
+        border: 5px solid black; /* Comando para poner borde a los elementos, primero se setea el tamaño del borde, luego sigue el estilo y luego sigue el color */
+        border-radius: 30px; /* Este comando sirve para redondear los bordes de las imágenes */       
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px; /* Este comando agrega un margen a los elementos de dicho tamaño en todas las direccións */
+                  /* Sí se desea agregar margen en una dirección en específico se debe agregar con "-" dicha dirección */   
+}
