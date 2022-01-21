@@ -17,7 +17,7 @@ return array [array.length-1] //array.length me da la longitud total del array, 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
-return array [array.length]; // array.length me da la longitud del array
+return array.length; // array.length me da la longitud del array
 }
 
 
@@ -30,7 +30,7 @@ var nuevoArray = []
 for (var i=0; i< array.length;i++) { //es un ciclo, va dando vueltas, inicia en 0 y va hasta que sea menor de la longitud del array 
   nuevoArray[i] = array[i] +1
 }
-return array 
+return nuevoArray 
 }
 
 
