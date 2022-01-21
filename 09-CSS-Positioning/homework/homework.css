@@ -7,7 +7,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-    display: block;
+    display: block; /* block corresponde a propiedades de alto  ancho, el comando in-line es más rpopiado para los comandos CSS */
     text-align: center;
 }
 
