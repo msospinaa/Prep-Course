@@ -81,14 +81,13 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
-var contador = 0;
-for(let i = 0; i < numeros.length; i++){
-  contador += numeros [1];
+var total = 0;
+for(let i = 0; i<numeros.length; i++) {
+  total = total + numeros[i];
+}  
+return total
 }
-return contador
-}
-
-
+ 
 function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
@@ -129,8 +128,8 @@ function cuentoElementos(arreglo){
   //Escribe tu código aquí
 var contador = 0
 for(let i = 0; i < arreglo.length; i++) {
-  if(arreglo[i] > 18) {
-    contador = contador + 1; 
+  if(arreglo [i] >= 18) {
+    contador = contador [i] + 1; 
   }
   return contador
 }
@@ -229,9 +228,9 @@ function breakStatement(numero) {
     }
   }
 if(i < 10){
-  return "Se interrumpió la ejecución";
+  return "Se interrumpió la ejecución"
 }else{
-  return arr; 
+  return arr 
   }
 }
 
