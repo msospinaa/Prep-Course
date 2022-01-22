@@ -128,12 +128,11 @@ function cuentoElementos(arreglo){
   //Escribe tu código aquí
 var contador = 0
 for(let i = 0; i < arreglo.length; i++) {
-  if(arreglo [i] >= 18) {
-    contador = contador [i] + 1; 
+  if(arreglo [i] > 18) {
+    contador = contador + 1; 
   }
-  return contador
 }
-return acc; 
+  return contador
 }
 
 
@@ -143,11 +142,11 @@ function diaDeLaSemana(numeroDeDia) {
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí  
   if (numeroDeDia === 1 || numeroDeDia === 7)  {
-    return"Es fin de Semana";
+    return "Es fin de semana";
   } else {
-    "Es dia laboral";
+    return "Es dia Laboral";
   }
-  } 
+} 
 
 
 function empiezaConNueve(n) {
@@ -220,7 +219,7 @@ function breakStatement(numero) {
   // Tu código:
   var arr = []
   var suma = numero;
-  for(let i = 0; i < 10; i++) {
+  for(var i = 0; i < 10; i++) {
     suma = suma + 2
     if (suma === i ) break
     else{
@@ -245,16 +244,15 @@ function continueStatement(numero) {
   var array = []
   var suma = numero;
   for(let i = 0; i < 10; i++) {
-    if(i===5) continue
-    else {
-      suma = suma + 2
+    if(i === 5) continue;
+         else {
       suma = suma + 2;
       array.push(suma);
     }
   }
-
   return array;
 }
+
 
 
 // No modificar nada debajo de esta línea
