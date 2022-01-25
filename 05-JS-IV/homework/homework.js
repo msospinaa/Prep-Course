@@ -6,7 +6,7 @@ function crearGato(nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
-  const gato = { 
+  var gato = { 
     nombre: nombre, 
     edad: edad, 
     meow: function (){
@@ -31,7 +31,7 @@ function invocarMetodo(objeto, metodo) {
   // Invoca ese método
   // Nada necesita ser devuelto ("returned")
   // Tu código:
-  objeto [metodo]();
+  objeto [metodo](); //[] accedimos a una propiedad,, () se declara como función. 
 }
 
 function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
@@ -47,7 +47,7 @@ function eliminarPropiedad(objeto, unaPropiedad) {
   // tip: tenes que usar bracket notation
   // Devuelve el objeto
   // Tu código:
-  delete objeto[unaPropiedad];
+  delete objeto[unaPropiedad]; // 'deloete' es el comando para eliminar una propiedad
   return objeto;
 }
 
@@ -55,7 +55,7 @@ function nuevoUsuario(nombre, email, password) {
   // Crea un nuevo objeto con las propiedades coincidiendo con los argumentos que se pasan a la función
   // Devuelve el objeto
   // Tu código:
-  const usuarioNuevo = {
+  var usuarioNuevo = {
     nombre: nombre,
     email: email,
     password: password
